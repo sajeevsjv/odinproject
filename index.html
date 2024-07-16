@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>odin</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+      *{
+        font-family: "Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #374151;
+      }
+      .nav-link{
+        padding-bottom: 8px;
+        border: 2px solid transparent;
+      }
+      .nav-link:hover{
+        padding-bottom: 8px;
+        border-bottom: 2px solid gray;
+      }
+      .boxes{
+        background-color: white;
+      }
+      .boxes:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      }
+      .main-slogan h1{
+        font-size: 60px;
+      }
+      @media only screen and (max-width:500px) {
+        .main-slogan h1{
+        font-size: 30px;
+      }
+      }
+      ion-icon{
+        font-size: 20px;
+      }
+      .git:hover{
+        color: black;
+      }
+      .disc:hover{
+        color:blue;
+      }
+      .fb:hover{
+        color: blue;
+      }
+      .twitter:hover{
+        color: cyan;
+      }
+      .col-2 ul,li{
+        list-style: none;
+        line-height: 2.5;
+        font-size: 14px;
+      }
+      li:nth-child(1){
+        color:black;
+        font-weight: 700;
+      }
+      li:hover{
+        color: black;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light px-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/odin logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <form class="d-flex gap-4">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4" style="font-size: 14px;font-weight: 600;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">All Paths</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Community</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign in</a>
+                </li>
+                <li class="nav-item d-flex align-items-center justify-content-center">
+                  <span> <button type="button" class="btn btn-success" style="font-size: 14px;">Get Started</button></span>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+       
+      <!-- section1 -->
+       <div class="section1 container-fluid pt-5">
+        <div class="row d-flex text-center gap-2 justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9 main-slogan bg-dange">
+               <h1>Your <span style="color: #a9792b;">Career in Web Development</span>
+                Starts Here</h1>
+            </div>
+          <div class="col-xs-10 col-sm-9 col-md-5 col-lg-5 col-xl-5 col-xxl-5 fs-5 text-muted" style="color: #6b7280;" >
+            <p>Our full stack curriculum is free and supported by a passionate open source community.</p>
+          </div>
+          <span><a href="" class="border border-1  rounded p-3 bg-light text-muted text-reset text-decoration-none">View Full Curriculam</a></span>
+        </div>
+      </div>
+        <div class="w-100 mt-3 h-50"><img src="./images/home-isometric-68a769acd8c1f2c43991e3d6b24c658bf5e78b59fbca20aba5c7a97850948269.svg" width="100%" alt=""></div>
+       </div>
+
+
+      <!-- section2  -->
+       <div class="section2 container">
+        <div class="row mt-2">
+        <div class="col-12 my-3 text-center">
+          <h2>How it works</h2>
+          <p>This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
+        </div>
+        <!-- <div class="col-12">
+          <div class="row">
+          </div>
+        </div> -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex gap-3 flex-column align-items-center text-center gap-2">
+          <img src="./images/img-learn-aded43a474618b12bf884b2577ef4548962b3d8e8ef5381de0bc6f4f86f8b2b3.svg" style="width: 100%;height: 30vh;" alt="">
+          <a href="" class="fw-bold text-reset text-decoration-none">Learn</a>
+          <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 d-flex gap-3 flex-column align-items-center text-center gap-2">
+          <img src="./images/img-build-097e94bec94feb4b9152f9f95c197be4974f9921ce6fe8fc6ed86541933b3c14.svg" style="width: 100%;height: 30vh;" alt="">
+          <a href="" class="fw-bold text-reset text-decoration-none">Learn</a>
+          <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4  d-flex gap-3 flex-column align-items-center text-center gap-2">
+          <img src="./images/img-connect-fa7fdbed3b8a50275b5a79a293133b0a4b7b0c618230c6c7cad978c9e13122db.svg" style="width: 100%;height: 30vh;" alt="">
+          <a href="" class="fw-bold text-reset text-decoration-none">Learn</a>
+          <p>You're not alone. Learn and get help from our friendly community of beginner and experienced developers.</p>
+        </div>
+      </div>
+       </div>
+
+
+
+
+    <!-- section cards -->
+     <div class="container-fluid bg-light">
+      <div class="container">
+      <div class="row">
+        <div class="col-12 pt-5 text-center"><h2>Learn everything you need to know</h2></div>
+        <div class="col-xs-5 col-sm-6 col-md-9 col-lg-9 col-xl-9 col-xxl-9 container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-html-css-91bc8d9c7ebb2e2f73eeb302c38a92d9ba6f182301dbd1868d7198fcc8376aeb.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">Intermediate HTML and CSS</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-html-css-91bc8d9c7ebb2e2f73eeb302c38a92d9ba6f182301dbd1868d7198fcc8376aeb.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">Intermediate HTML and CSS</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-database-feffd1ceb24267152793e33ea95e98ffeb3d203fd62d77302ac165dcfc421349.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">Databases</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-nodejs-1432a58382afd13f5bf55d4e5eda07244a3aa5fae9cee98ea034f17d6a09d503 (1).svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">NodeJS</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-javascript-626af7075a7914bc4f30bd941268ed883785c3fb29b3e9d023eb5ab6450353bb.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">JavaScript</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-getting-hired-03b3463749a1cd7dd5358c585b0c35c2878bbde91aa0800f641992eeb69f7c66.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">Getting Hired</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-react-d347c579ca6df9afc0ef4127bb4fe6dc4002be06cb241f4d70b37c412f56cec2.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">React</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-ruby-on-rails-0100b2e2593cbeb4d87e92e9fc9930448581ef43b8ab175d5cfef2b6e7e3f29c.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">Ruby on Rails</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4  d-flex  align-items-center justify-content-center" style="min-height: 10vh;">
+              <div class="p-4 boxes d-flex gap-2 flex-column text-center align-items-center" style="width: 90%;height: 90%;">
+                 <img src="./images/badge-ruby-d91c1849066ed424531394e9d693dd99aaef49bcee15a96f462a1ae54c359af0.svg" style="width: 100%;height: 60%;" alt="">
+                 <p class="fs-5 fw-bold">Ruby</p>
+              </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center my-5"><span><a href="" style="background-color: white;" class="border border-1 rounded p-2 text-reset text-decoration-none">Explore curriculam</a></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+     </div>
+
+
+
+
+     <!-- new section above footer -->
+      <div class="container-fluid pt-5">
+        <div class="container pt-3">
+          <div class="row">
+            <div class="col-12 text-center"><h4>Success Stories</h4></div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 my-3">
+              <div class="row">
+                <div class="col-1">
+                  <div style="border-radius: 50%;border-radius: 50%;height: 50px;width: 50px;"><img src="./images/rob_pando-6f356379c151a50217e4e81a67f3c22bfba6a759264669aeabfd239701568f63.jpg" alt="" style="width: 100%;height: 100%;border-radius: 50%;"></div>
+                </div>
+                <div class="col-11 ps-5">
+                  <span><a href="">Rob Pando</a></span>
+                  <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl my-3">
+              <div class="row">
+                <div class="col-1">
+                  <div style="border-radius: 50%;border-radius: 50%;height: 50px;width: 50px;"><img src="./images/rob_pando-6f356379c151a50217e4e81a67f3c22bfba6a759264669aeabfd239701568f63.jpg" alt="" style="width: 100%;height: 100%;border-radius: 50%;"></div>
+                </div>
+                <div class="col-11 ps-5">
+                  <span><a href="">Rob Pando</a></span>
+                  <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl my-3">
+              <div class="row">
+                <div class="col-1">
+                  <div style="border-radius: 50%;border-radius: 50%;height: 50px;width: 50px;"><img src="./images/rob_pando-6f356379c151a50217e4e81a67f3c22bfba6a759264669aeabfd239701568f63.jpg" alt="" style="width: 100%;height: 100%;border-radius: 50%;"></div>
+                </div>
+                <div class="col-11 ps-5">
+                  <span><a href="">Rob Pando</a></span>
+                  <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl my-3">
+              <div class="row">
+                <div class="col-1">
+                  <div style="border-radius: 50%;border-radius: 50%;height: 50px;width: 50px;"><img src="./images/rob_pando-6f356379c151a50217e4e81a67f3c22bfba6a759264669aeabfd239701568f63.jpg" alt="" style="width: 100%;height: 100%;border-radius: 50%;"></div>
+                </div>
+                <div class="col-11 ps-5">
+                  <span><a href="">Rob Pando</a></span>
+                  <p>TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 text-center my-2 mb-5"><a href="" class="text-reset">Read more succes stories</a></div>
+            <div class="col-12 my-5 d-flex flex-column gap-3">
+              <div class="row d-flex flex-column align-items-center text-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 fs-3 fw-bold"><span>Support us!</span></div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"><span>The Odin Project is funded by the community. Join us in empowering learners around the globe by supporting The Odin Project!</span></div>
+              </div>
+              <div class="col-12  d-flex justify-content-center gap-3">
+                <button type="button" class="btn btn-light border">Learn more</button>
+                <button type="button" class="btn btn-success">Donate now <img src="./images/icons8-right-arrow-30.png" alt=""> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <!-- footer section -->
+    <div class="container-fluid" style="background-color: white;" >
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4  d-flex flex-column gap-4">
+            <img src="./images/odin logo.png" style="width: 40%; height: 40%;" alt="">
+            <span>High quality coding education maintained by an open source community
+            </span>
+            <span class="d-flex gap-3">
+              <a href=""><ion-icon name="logo-github" class="git"></ion-icon></a>  
+              <a href=""><ion-icon name="logo-discord" class="disc"> </ion-icon></a>
+              <a href=""><ion-icon name="logo-facebook" class="fb"></ion-icon></a>
+              <a href=""><ion-icon name="logo-twitter" class="twitter"></ion-icon></a>
+            </span>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 my-3">
+            <ul class="list-style-none m-0 p-0">
+              <li>About us</li>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Success stories</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 my-3">
+            <ul class="m-0 p-0">
+              <li>Support</li>
+              <li>FAQ</li>
+              <li>Contribute</li>
+              <li>Contact us</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 my-3">
+            <ul class="m-0 p-0">
+              <li>Guides</li>
+              <li>Community  guides</li>
+              <li>Installation guides</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 col-xxl-2 my-3">
+            <ul class="m-0 p-0">
+              <li>Legal</li>
+              <li>Terms</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+          <div class="col-12 my-5"><div style="height: 1px;width: 100%;background-color: rgb(182, 182, 182);"></div></div>
+          <div class="col-12 my-2" style="font-size: 12px;">&copy 2024 The Odin Project. All rights reserved</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
